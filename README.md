@@ -66,20 +66,26 @@ To showcase your Kubernetes skills without paying for a cloud provider, you can 
    ```
    *This immediately gives you a public HTTPS URL you can put on your resume!*
 
-### Strategy 2: The Modern PaaS Architecture
-If you want to host it permanently in the cloud without managing Kubernetes and without a credit card, split the services across generous free tiers:
+### Strategy 2: The Modern PaaS Architecture (Truly Permanent & Free)
+If you want to host it permanently in the cloud without managing Kubernetes and without a credit card, split the services across these highly stable, generous free tiers:
 
 1. **Database: [Neon.tech](https://neon.tech/)**
    - Provides a fully managed Serverless Postgres database. 100% free, sign up with GitHub.
-   - Simply take the connection string they give you and put it in your backend's `application.yml` or environment variables!
+   - Copy the connection string it gives you (e.g. `postgresql://user:pass@ep-cool-cloud-123.neon.tech/portfolio`).
 
-2. **Backend: [Koyeb](https://www.koyeb.com/) or [Render](https://render.com/)**
-   - Koyeb offers a free tier (Eco instances) requiring no credit card if you link a verified GitHub account.
-   - Connect your GitHub repo, select your `backend/Dockerfile`, and pass in the `SPRING_DATASOURCE_URL` from Neon!
+2. **Backend: [Hugging Face Spaces](https://huggingface.co/new-space)**
+   - Hugging Face allows you to run **any Docker container** for free on their "CPU Basic" hardware. Zero credit card required!
+   - Create a new Space, select the **Docker** SDK, and set it to **Public**.
+   - Under Settings, add your environment variables:
+     - `SPRING_DATASOURCE_URL`: `jdbc:postgresql://<your-neon-host>:5432/portfolio?sslmode=require`
+     - `SPRING_DATASOURCE_USERNAME`: `your-neon-user`
+     - `SPRING_DATASOURCE_PASSWORD`: `your-neon-password`
 
 3. **Frontend: [Vercel](https://vercel.com/)**
-   - The absolute best place to host Next.js. Completely free, no credit card.
-   - Import your GitHub repo, set your root directory to `frontend/`, add the `NEXT_PUBLIC_BACKEND_URL` from your Koyeb backend, and deploy!
+   - The best way to host Next.js. 100% free for personal use.
+   - Import your GitHub repo, set the **Root Directory** to `frontend/`.
+   - Add the Environment Variable `NEXT_PUBLIC_BACKEND_URL` pointing to your Hugging Face space URL (e.g. `https://username-space-name.hf.space/api/v1`).
+
 
 ---
 ## License
