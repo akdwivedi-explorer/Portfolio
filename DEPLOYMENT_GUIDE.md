@@ -25,9 +25,9 @@ Follow these three stages to move your portfolio from your local machine to the 
    - Connect your GitHub repository.
 3. **Configure Service**:
    - **Name**: `portfolio-backend`.
-   - **Root Directory**: Leave it as the root (`/`) or project root.
+   - **Root Directory**: `backend` *(This is critical so Docker finds your `src` and `pom.xml` files)*.
    - **Runtime**: Select **Docker**.
-   - **Dockerfile Path**: `backend/Dockerfile`.
+   - **Dockerfile Path**: `Dockerfile` (or `backend/Dockerfile` depending on the UI prompt).
    - **Instance Type**: Ensure **Free** is selected.
 4. **Environment Variables**:
    - Click **Advanced** -> **Add Environment Variable**.
