@@ -1,0 +1,33 @@
+# Dependencies and Build Artifacts
+target/
+*.jar
+*.war
+*.ear
+.mvn/
+mvnw
+mvnw.cmd
+.gradle/
+build/
+
+# Environment and Secrets
+env/
+.env
+.env*
+*.env
+bin/
+
+# IDE and System
+.settings/
+.project
+.classpath
+.factorypath
+.idea/
+*.iml
+*.iws
+.vscode/
+.DS_Store
+*.swp
+*.log
+
+# Docker
+docker-compose.override.yml

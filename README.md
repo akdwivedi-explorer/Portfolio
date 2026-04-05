@@ -73,18 +73,19 @@ If you want to host it permanently in the cloud without managing Kubernetes and 
    - Provides a fully managed Serverless Postgres database. 100% free, sign up with GitHub.
    - Copy the connection string it gives you (e.g. `postgresql://user:pass@ep-cool-cloud-123.neon.tech/portfolio`).
 
-2. **Backend: [Hugging Face Spaces](https://huggingface.co/new-space)**
-   - Hugging Face allows you to run **any Docker container** for free on their "CPU Basic" hardware. Zero credit card required!
-   - Create a new Space, select the **Docker** SDK, and set it to **Public**.
-   - Under Settings, add your environment variables:
-     - `SPRING_DATASOURCE_URL`: `jdbc:postgresql://<your-neon-host>:5432/portfolio?sslmode=require`
+2. **Backend: [Render.com](https://render.com/)**
+   - Render offers a **Free Tier** for Web Services that supports Docker. 
+   - Connect your GitHub repo, select **Web Service**, and choose the **root directory** as your project root.
+   - Point the **Dockerfile Path** to `backend/Dockerfile`.
+   - Under **Environment Variables**, add:
+     - `SPRING_DATASOURCE_URL`: `jdbc:postgresql://<your-neon-host>:5432/neondb?sslmode=require`
      - `SPRING_DATASOURCE_USERNAME`: `your-neon-user`
      - `SPRING_DATASOURCE_PASSWORD`: `your-neon-password`
 
 3. **Frontend: [Vercel](https://vercel.com/)**
    - The best way to host Next.js. 100% free for personal use.
    - Import your GitHub repo, set the **Root Directory** to `frontend/`.
-   - Add the Environment Variable `NEXT_PUBLIC_BACKEND_URL` pointing to your Hugging Face space URL (e.g. `https://username-space-name.hf.space/api/v1`).
+   - Add the Environment Variable `NEXT_PUBLIC_BACKEND_URL` pointing to your Render service URL (e.g. `https://portfolio-backend.onrender.com/api/v1`).
 
 
 ---
