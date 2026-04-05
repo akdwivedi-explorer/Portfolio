@@ -2,22 +2,25 @@
 
 ![Obsidion Forge Header](./assets/banner.png)
 
-# 🌑 Ashutosh Portfolio - Full Stack Excellence
+# 🌑 Ashutosh Dwivedi - Portfolio
 
-**A premium, high-performance CMS-driven portfolio engineered for scale and aesthetic excellence.**
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=FF4500&center=true&vCenter=true&width=500&lines=Software+Developer;Full-Stack+Engineer;Backend+Specialist;Open+Source+Enthusiast" alt="Typing SVG" />
 
-[![GitHub Stars](https://img.shields.io/github/stars/ashutoshdwivedi/Portfolio?style=for-the-badge&color=orange&logo=github)](https://github.com/ashutoshdwivedi/Portfolio/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/ashutoshdwivedi/Portfolio?style=for-the-badge&color=gray&logo=git)](https://github.com/ashutoshdwivedi/Portfolio/network/members)
+---
+
+[![GitHub Stars](https://img.shields.io/github/stars/akdwivedi-explorer/Portfolio?style=for-the-badge&color=orange&logo=github)](https://github.com/akdwivedi-explorer/Portfolio/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/akdwivedi-explorer/Portfolio?style=for-the-badge&color=gray&logo=git)](https://github.com/akdwivedi-explorer/Portfolio/network/members)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge&logo=opensourceinitiative)](./LICENSE)
-![Visitors](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fashutoshdwivedi%2FPortfolio&count_bg=%23FF4500&title_bg=%231A1A1A&icon=&icon_color=%23E7E7E7&title=HEARTBEATS&edge_flat=false)
+![Visitors](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fakdwivedi-explorer%2FPortfolio&count_bg=%23FF4500&title_bg=%231A1A1A&icon=&icon_color=%23E7E7E7&title=HEARTBEATS&edge_flat=false)
 
-[View Live Demo](https://github.com/ashutoshdwivedi/Portfolio) • [App Console](http://localhost:3000/admin) • [Report Bug](https://github.com/ashutoshdwivedi/Portfolio/issues)
+[View Live Demo](https://github.com/akdwivedi-explorer/Portfolio) • [App Console](http://localhost:3000/admin) • [Report Bug](https://github.com/akdwivedi-explorer/Portfolio/issues)
 
 </div>
 
 ---
 
 ## 📖 Table of Contents
+
 - [✨ Key Features](#-key-features)
 - [💻 Tech Stack](#-tech-stack)
 - [🖼️ Visual Showcase](#%EF%B8%8F-visual-showcase)
@@ -30,6 +33,7 @@
 ---
 
 ## ✨ Key Features
+
 - 🌍 **Immersive 3D Experience**: Interactive globe visualization for global project distribution.
 - 🛠️ **Microservice Architecture**: Decoupled Next.js frontend and Spring Boot Java backend.
 - ⚡ **SEO Optimized**: Built with Next.js 16 App Router for lightning-fast performance and meta-tags.
@@ -43,11 +47,7 @@
 
 <div align="center">
 
-| **Frontend** | **Backend** | **Infrastructure** |
-| :--- | :--- | :--- |
-| ![Next.js](https://img.shields.io/badge/Next.js-16-black?style=flat-square&logo=next.js&logoColor=white) | ![Java 21](https://img.shields.io/badge/Java-21-orange?style=flat-square&logo=openjdk&logoColor=white) | ![Docker](https://img.shields.io/badge/Docker-Blue?style=flat-square&logo=docker&logoColor=white) |
-| ![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white) | ![Spring Boot 3.4](https://img.shields.io/badge/Spring_Boot-3.4-6DB33F?style=flat-square&logo=spring-boot&logoColor=white) | ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) |
-| ![Framer Motion](https://img.shields.io/badge/Framer_Motion-white?style=flat-square&logo=framer&logoColor=black) | ![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=spring-security&logoColor=white) | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) |
+[![My Skills](https://skillicons.dev/icons?i=nextjs,react,tailwind,ts,framer,spring,java,postgres,docker,kubernetes,maven,git&perline=6)](https://skillicons.dev)
 
 </div>
 
@@ -81,11 +81,11 @@
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ashutoshdwivedi&show_icons=true&theme=obsidian&hide_border=true&bg_color=1A1A1A&title_color=FF4500&icon_color=FF4500&text_color=FFFFFF)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=akdwivedi-explorer&show_icons=true&theme=obsidian&hide_border=true&bg_color=0D1117&title_color=FF4500&icon_color=FF4500&text_color=BDBDBD)
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=ashutoshdwivedi&theme=obsidian&background=1A1A1A&border=1A1A1A&stroke=FF4500&ring=FF4500&fire=FF4500&currStreakNum=FF4500)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=akdwivedi-explorer&theme=obsidian&background=0D1117&border=0D1117&stroke=FF4500&ring=FF4500&fire=FF4500&currStreakNum=FF4500)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ashutoshdwivedi&layout=compact&theme=obsidian&hide_border=true&bg_color=1A1A1A&title_color=FF4500&text_color=FFFFFF)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=akdwivedi-explorer&layout=compact&theme=obsidian&hide_border=true&bg_color=0D1117&title_color=FF4500&text_color=BDBDBD)
 
 </div>
 
@@ -123,21 +123,19 @@ docker-compose up --build
 
 ## 🔐 Admin Access
 Navigate to [http://localhost:3000/admin](http://localhost:3000/admin).
-- **Username**: `ashutosh.dwivedi604@gmail.com`
-- **Password**: `Ak@123456`
-> [!WARNING]
-> Remember to update these credentials via environment variables before deploying to a production environment.
+
+> [!SECURITY]
+> The default administrative credentials have been removed from the documentation for security. Please refer to your local `.env` or system administrator for login details.
 
 ---
 
 ## 🏗️ Deployment
+
 This project is built for high-scale, zero-cost cloud environments.
 
 - **Frontend**: [Vercel](https://vercel.com/) (Next.js Optimization)
 - **Backend**: [Render.com](https://render.com/) (Docker Support)
 - **Database**: [Neon.tech](https://neon.tech/) (Serverless PostgreSQL)
-
-For detailed deployment instructions, see the [Deployment Guide](./DEPLOYMENT_GUIDE.md).
 
 ---
 
