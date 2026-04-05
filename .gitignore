@@ -5,6 +5,8 @@
 *.env
 **/*.env
 credentials.json
+cp.txt
+**/cp.txt
 .vscode/
 
 # --- Dependency Management ---
