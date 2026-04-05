@@ -1,93 +1,152 @@
-# Full-Stack Portfolio
+<div align="center">
 
-A highly performant, CMS-driven portfolio engineered for scale and aesthetic excellence. 
-Built using a modern microservice-inspired architecture separating the presentation layer from a robust Java backend.
+![Obsidion Forge Header](./assets/banner.png)
 
-## Tech Stack
-*   **Frontend**: Next.js 16 (App Router), React, Tailwind CSS, Framer Motion
-*   **Backend**: Java 21, Spring Boot 3.4, Spring Security, Spring Data JPA
-*   **Database**: PostgreSQL
-*   **DevOps**: Docker, Docker Compose, Kubernetes (K3s/Minikube)
+# 🌑 Ashutosh Portfolio - Full Stack Excellence
+
+**A premium, high-performance CMS-driven portfolio engineered for scale and aesthetic excellence.**
+
+[![GitHub Stars](https://img.shields.io/github/stars/ashutoshdwivedi/Portfolio?style=for-the-badge&color=orange&logo=github)](https://github.com/ashutoshdwivedi/Portfolio/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/ashutoshdwivedi/Portfolio?style=for-the-badge&color=gray&logo=git)](https://github.com/ashutoshdwivedi/Portfolio/network/members)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge&logo=opensourceinitiative)](./LICENSE)
+![Visitors](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fashutoshdwivedi%2FPortfolio&count_bg=%23FF4500&title_bg=%231A1A1A&icon=&icon_color=%23E7E7E7&title=HEARTBEATS&edge_flat=false)
+
+[View Live Demo](https://github.com/ashutoshdwivedi/Portfolio) • [App Console](http://localhost:3000/admin) • [Report Bug](https://github.com/ashutoshdwivedi/Portfolio/issues)
+
+</div>
 
 ---
 
-## 🚀 Quick Start (Local Development)
+## 📖 Table of Contents
+- [✨ Key Features](#-key-features)
+- [💻 Tech Stack](#-tech-stack)
+- [🖼️ Visual Showcase](#%EF%B8%8F-visual-showcase)
+- [📈 Project Analytics](#-project-analytics)
+- [🚀 Quick Start](#-quick-start)
+- [🔐 Admin Access](#-admin-access)
+- [🏗️ Deployment](#%EF%B8%8F-deployment)
+- [📜 License](#-license)
 
-### Approach 1: Using Docker Compose (Recommended)
-You can spin up the entire architecture (PostgreSQL, Spring Boot Backend, Next.js Frontend) using a single command:
+---
+
+## ✨ Key Features
+- 🌍 **Immersive 3D Experience**: Interactive globe visualization for global project distribution.
+- 🛠️ **Microservice Architecture**: Decoupled Next.js frontend and Spring Boot Java backend.
+- ⚡ **SEO Optimized**: Built with Next.js 16 App Router for lightning-fast performance and meta-tags.
+- 🎨 **Obsidian Forge Aesthetic**: A premium dark-themed design with liquid-core animations.
+- 🛡️ **Secure CMS**: Full administrative console with Spring Security integration.
+- 📦 **Infrastructure Ready**: Pre-configured with Docker, Kubernetes manifests, and CI/CD pipelines.
+
+---
+
+## 💻 Tech Stack
+
+<div align="center">
+
+| **Frontend** | **Backend** | **Infrastructure** |
+| :--- | :--- | :--- |
+| ![Next.js](https://img.shields.io/badge/Next.js-16-black?style=flat-square&logo=next.js&logoColor=white) | ![Java 21](https://img.shields.io/badge/Java-21-orange?style=flat-square&logo=openjdk&logoColor=white) | ![Docker](https://img.shields.io/badge/Docker-Blue?style=flat-square&logo=docker&logoColor=white) |
+| ![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white) | ![Spring Boot 3.4](https://img.shields.io/badge/Spring_Boot-3.4-6DB33F?style=flat-square&logo=spring-boot&logoColor=white) | ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) |
+| ![Framer Motion](https://img.shields.io/badge/Framer_Motion-white?style=flat-square&logo=framer&logoColor=black) | ![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=spring-security&logoColor=white) | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) |
+
+</div>
+
+---
+
+## 🖼️ Visual Showcase
+
+<div align="center">
+
+### 🚀 Landing Experience
+
+![Hero Page](./assets/hero.png)
+
+### 🛠️ Integrated CMS (Protocol)
+
+![Project Management](./assets/projects.png)
+
+![Experience Timeline](./assets/experience.png)
+
+### 📱 Responsive Precision
+
+![Device Mockup](./assets/mockup.png)
+
+*Engineered to look stunning on every screen, from iPhone to MacBook Pro.*
+
+</div>
+
+---
+
+## 📈 Project Analytics
+
+<div align="center">
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ashutoshdwivedi&show_icons=true&theme=obsidian&hide_border=true&bg_color=1A1A1A&title_color=FF4500&icon_color=FF4500&text_color=FFFFFF)
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=ashutoshdwivedi&theme=obsidian&background=1A1A1A&border=1A1A1A&stroke=FF4500&ring=FF4500&fire=FF4500&currStreakNum=FF4500)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ashutoshdwivedi&layout=compact&theme=obsidian&hide_border=true&bg_color=1A1A1A&title_color=FF4500&text_color=FFFFFF)
+
+</div>
+
+---
+
+## 🚀 Quick Start
+
+<details>
+<summary><b>Approach 1: Using Docker Compose (Recommended)</b></summary>
+
 ```bash
+# Spin up PostgreSQL, Spring Boot Backend, and Next.js Frontend
 docker-compose up --build
 ```
-*   **Frontend**: http://localhost:3000
-*   **Backend API**: http://localhost:8080/api/v1
-*   **Database**: localhost:5432
+- **Frontend**: [http://localhost:3000](http://localhost:3000)
+- **Backend API**: [http://localhost:8080/api/v1](http://localhost:8080/api/v1)
+- **Database**: `localhost:5432`
+</details>
 
-### Approach 2: Manual Start
-1.  **Start the Database**: Ensure PostgreSQL is running locally on port `5432` with a database named `portfolio`.
-2.  **Start the Backend**:
-    ```bash
-    cd backend
-    ./mvnw spring-boot:run
-    ```
-3.  **Start the Frontend**:
-    ```bash
-    cd frontend
-    npm install
-    npm run dev
-    ```
+<details>
+<summary><b>Approach 2: Manual Development Setup</b></summary>
 
----
-
-## 🔐 Admin Console
-Navigate to `http://localhost:3000/admin`.
-*   **Default Username**: `ashutosh.dwivedi604@gmail.com`
-*   **Default Password**: `Ak@123456`
-*(Change these credentials in the backend environment variables before deploying to production).*
-
----
-
-## 🏗️ Deployment (100% Free, No Credit Card Required)
-
-This project is built to accommodate multiple deployment strategies. If you do not have a credit card, you can still host this architecture for completely free.
-
-### Strategy 1: The DevOps Flex (Local Kubernetes + Tunnels)
-To showcase your Kubernetes skills without paying for a cloud provider, you can run the cluster locally on your own machine and expose it to the internet securely.
-1. Install [Minikube](https://minikube.sigs.k8s.io/) or [Docker Desktop](https://www.docker.com/products/docker-desktop/) with Kubernetes enabled.
-2. Apply your manifests from the `/k8s` folder.
+1. **Database**: Start PostgreSQL on `5432` with database `portfolio`.
+2. **Backend**:
    ```bash
-   kubectl apply -f k8s/postgres.yaml
-   kubectl apply -f k8s/backend.yaml
-   kubectl apply -f k8s/frontend.yaml
+   cd backend && ./mvnw spring-boot:run
    ```
-3. Expose your cluster using a free tunneling service that requires no credit card, such as **[Pinggy.io](https://pinggy.io/)**, **Localtunnel**, or **Ngrok**. 
+3. **Frontend**:
    ```bash
-   # Example using Pinggy to expose your frontend service:
-   ssh -p 443 -R0:localhost:3000 a.pinggy.io
+   cd frontend && npm install && npm run dev
    ```
-   *This immediately gives you a public HTTPS URL you can put on your resume!*
-
-### Strategy 2: The Modern PaaS Architecture (Truly Permanent & Free)
-If you want to host it permanently in the cloud without managing Kubernetes and without a credit card, split the services across these highly stable, generous free tiers:
-
-1. **Database: [Neon.tech](https://neon.tech/)**
-   - Provides a fully managed Serverless Postgres database. 100% free, sign up with GitHub.
-   - Copy the connection string it gives you (e.g. `postgresql://user:pass@ep-cool-cloud-123.neon.tech/portfolio`).
-
-2. **Backend: [Render.com](https://render.com/)**
-   - Render offers a **Free Tier** for Web Services that supports Docker. 
-   - Connect your GitHub repo, select **Web Service**, and choose the **root directory** as your project root.
-   - Point the **Dockerfile Path** to `backend/Dockerfile`.
-   - Under **Environment Variables**, add:
-     - `SPRING_DATASOURCE_URL`: `jdbc:postgresql://<your-neon-host>:5432/neondb?sslmode=require`
-     - `SPRING_DATASOURCE_USERNAME`: `your-neon-user`
-     - `SPRING_DATASOURCE_PASSWORD`: `your-neon-password`
-
-3. **Frontend: [Vercel](https://vercel.com/)**
-   - The best way to host Next.js. 100% free for personal use.
-   - Import your GitHub repo, set the **Root Directory** to `frontend/`.
-   - Add the Environment Variable `NEXT_PUBLIC_BACKEND_URL` pointing to your Render service URL (e.g. `https://portfolio-backend.onrender.com/api/v1`).
-
+</details>
 
 ---
-## License
-MIT
+
+## 🔐 Admin Access
+Navigate to [http://localhost:3000/admin](http://localhost:3000/admin).
+- **Username**: `ashutosh.dwivedi604@gmail.com`
+- **Password**: `Ak@123456`
+> [!WARNING]
+> Remember to update these credentials via environment variables before deploying to a production environment.
+
+---
+
+## 🏗️ Deployment
+This project is built for high-scale, zero-cost cloud environments.
+
+- **Frontend**: [Vercel](https://vercel.com/) (Next.js Optimization)
+- **Backend**: [Render.com](https://render.com/) (Docker Support)
+- **Database**: [Neon.tech](https://neon.tech/) (Serverless PostgreSQL)
+
+For detailed deployment instructions, see the [Deployment Guide](./DEPLOYMENT_GUIDE.md).
+
+---
+
+## 📜 License
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+
+---
+
+<div align="center">
+  <h3>Show some ❤️ by starring this repository!</h3>
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3N2eHB3eDR6N3R3eDR6N3R3eDR6N3R3eDR6N3R3eDR6N3R3ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/L1QMTl9jjYJgc/giphy.gif" width="50px"/>
+</div>
