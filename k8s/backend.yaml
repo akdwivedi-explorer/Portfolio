@@ -1,0 +1,43 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: backend
+  labels:
+    app: backend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: backend
+  template:
+    metadata:
+      labels:
+        app: backend
+    spec:
+      containers:
+        - name: backend
+          # Note: Replace this with your actual image, e.g., ashutoshdwivedi/portfolio-backend:latest
+          image: ashutoshdwivedi01/portfolio-backend:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 8080
+          env:
+            - name: SPRING_DATASOURCE_URL
+              value: "jdbc:postgresql://postgres:5432/portfolio"
+            - name: SPRING_DATASOURCE_USERNAME
+              value: "ashutoshdwivedi"
+            - name: SPRING_DATASOURCE_PASSWORD
+              value: "Ak@9926782761"
+            - name: SPRING_JPA_HIBERNATE_DDL_AUTO
+              value: "update"
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: backend
+spec:
+  ports:
+    - port: 8080
+  selector:
+    app: backend
