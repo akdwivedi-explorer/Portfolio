@@ -27,7 +27,7 @@ Follow these three stages to move your portfolio from your local machine to the 
    - **Name**: `portfolio-backend`.
    - **Root Directory**: `backend` *(This is critical so Docker finds your `src` and `pom.xml` files)*.
    - **Runtime**: Select **Docker**.
-   - **Dockerfile Path**: `Dockerfile` (or `backend/Dockerfile` depending on the UI prompt).
+   - **Dockerfile Path**: `Dockerfile` *(Since the root directory is already `backend`, the path to the Dockerfile is just `Dockerfile`, not `backend/Dockerfile`. Using `backend/Dockerfile` will cause a build error!)*.
    - **Instance Type**: Ensure **Free** is selected.
 4. **Environment Variables**:
    - Click **Advanced** -> **Add Environment Variable**.
