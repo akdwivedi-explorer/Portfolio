@@ -13,7 +13,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge&logo=opensourceinitiative)](./LICENSE)
 ![Visitors](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fakdwivedi-explorer%2FPortfolio&count_bg=%23FF4500&title_bg=%231A1A1A&icon=&icon_color=%23E7E7E7&title=HEARTBEATS&edge_flat=false)
 
-[View Live Demo](https://github.com/akdwivedi-explorer/Portfolio) • [App Console](http://localhost:3000/admin) • [Report Bug](https://github.com/akdwivedi-explorer/Portfolio/issues)
+[View Live Demo](https://github.com/akdwivedi-explorer/Portfolio) • [App Console](https://portfolio-frontend-eosin-one.vercel.app/admin) • [Report Bug](https://github.com/akdwivedi-explorer/Portfolio/issues)
 
 </div>
 
@@ -47,7 +47,7 @@
 
 <div align="center">
 
-[![My Skills](https://skillicons.dev/icons?i=nextjs,react,tailwind,ts,framer,spring,java,postgres,docker,kubernetes,maven,git&perline=6)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=nextjs,react,tailwind,ts,spring,java,postgres,docker,kubernetes,maven,git&perline=6)](https://skillicons.dev)
 
 </div>
 
@@ -122,7 +122,7 @@ docker-compose up --build
 ---
 
 ## 🔐 Admin Access
-Navigate to [http://localhost:3000/admin](http://localhost:3000/admin).
+Navigate to [https://portfolio-frontend-eosin-one.vercel.app/admin](https://portfolio-frontend-eosin-one.vercel.app/admin).
 
 > [!SECURITY]
 > The default administrative credentials have been removed from the documentation for security. Please refer to your local `.env` or system administrator for login details.
