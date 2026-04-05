@@ -40,6 +40,7 @@ public class SecurityConfig {
                 .requestMatchers("/api/v1/public/**").permitAll()
                 .requestMatchers("/api/v1/comments/**").permitAll()
                 .requestMatchers("/h2-console/**").permitAll()
+                .requestMatchers("/health").permitAll()
                 .requestMatchers("/api/v1/admin/**").hasRole("ADMIN")
                 .anyRequest().authenticated()
             )
