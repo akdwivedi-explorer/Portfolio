@@ -24,7 +24,6 @@
 - [✨ Key Features](#-key-features)
 - [💻 Tech Stack](#-tech-stack)
 - [🖼️ Visual Showcase](#%EF%B8%8F-visual-showcase)
-- [📈 Project Analytics](#-project-analytics)
 - [🚀 Quick Start](#-quick-start)
 - [🔐 Admin Access](#-admin-access)
 - [🏗️ Deployment](#%EF%B8%8F-deployment)
@@ -67,26 +66,6 @@
 
 ![Experience Timeline](./assets/experience.png)
 
-### 📱 Responsive Precision
-
-![Device Mockup](./assets/mockup.png)
-
-*Engineered to look stunning on every screen, from iPhone to MacBook Pro.*
-
-</div>
-
----
-
-## 📈 Project Analytics
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=akdwivedi-explorer&show_icons=true&theme=obsidian&hide_border=true&bg_color=0D1117&title_color=FF4500&icon_color=FF4500&text_color=BDBDBD)
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=akdwivedi-explorer&theme=obsidian&background=0D1117&border=0D1117&stroke=FF4500&ring=FF4500&fire=FF4500&currStreakNum=FF4500)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=akdwivedi-explorer&layout=compact&theme=obsidian&hide_border=true&bg_color=0D1117&title_color=FF4500&text_color=BDBDBD)
-
 </div>
 
 ---
@@ -123,9 +102,6 @@ docker-compose up --build
 
 ## 🔐 Admin Access
 Navigate to [https://portfolio-frontend-eosin-one.vercel.app/admin](https://portfolio-frontend-eosin-one.vercel.app/admin).
-
-> [!SECURITY]
-> The default administrative credentials have been removed from the documentation for security. Please refer to your local `.env` or system administrator for login details.
 
 ---
 
